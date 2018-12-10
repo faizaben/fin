@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConnecterActivity">
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Entrer votre email"
+        android:textColorHint="#000"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="#000"
+
+        android:hint="Entrer votre password"
+        android:inputType="textPassword"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+
+        />
+
+    <Button
+        android:id="@+id/btnvalid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Valider"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+
+        />
+    <Button
+        android:id="@+id/btannuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Annuler"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+
+        />
+
+
+
+
+</LinearLayout>
